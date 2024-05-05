@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+}
+#top{
+    width: 100%;
+     min-height: 60vh;
+ background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBtaW5pbWFsfGVufDB8fDB8fHww);
+background-size: cover;
+background-position: 50% 60%;
+}
+
+
+#overlay{
+   position: relative;
+    width: 100%;
+     min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.073);
+
+}
+
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 12px;
+    width: 40%;
+
+}
+
+
+#text{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    color: #fff;
+    padding: 0 10vw;
+    background-color: rgba(255, 255, 255, 0.032);
+}
+   
+
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+
+
+#bottom{
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+    display:flex ;
+}
+
+#bone{
+
+    width: 25%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #ffffffb5;
+}
+
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#btwo{
+
+    width: 25%;
+   min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1494806465803-34e97e0ec1c0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNDgyOTU4fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#bthree{
+
+    width: 16%;
+   min-height: inherit;
+    background-color: purple;
+}
+
+#bthreetop{
+
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    color: #fff;
+    background-color:rgb(244, 46, 19);
+}
+
+
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+
+#bthreebottom{
+
+    width: 100%;
+    height: 50%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NPMg6oBTr1qOjD-kma50X6q6WkvZMg4hOvJ8q1TkVg&s);
+  background-size: cover;
+}
+
+#bfour{
+
+    width: 30%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #444;
+    color: white;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.notf p{
+    width: 86%;
+    font-size: 20px;
+}
